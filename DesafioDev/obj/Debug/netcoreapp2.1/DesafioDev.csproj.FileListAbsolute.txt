@@ -1,0 +1,14 @@
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\bin\Debug\netcoreapp2.1\DesafioDev.deps.json
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\bin\Debug\netcoreapp2.1\DesafioDev.runtimeconfig.json
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\bin\Debug\netcoreapp2.1\DesafioDev.runtimeconfig.dev.json
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\bin\Debug\netcoreapp2.1\DesafioDev.dll
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\bin\Debug\netcoreapp2.1\DesafioDev.pdb
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\obj\Debug\netcoreapp2.1\DesafioDev.csprojAssemblyReference.cache
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\obj\Debug\netcoreapp2.1\DesafioDev.csproj.CoreCompileInputs.cache
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\obj\Debug\netcoreapp2.1\DesafioDev.RazorAssemblyInfo.cache
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\obj\Debug\netcoreapp2.1\DesafioDev.RazorAssemblyInfo.cs
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\obj\Debug\netcoreapp2.1\DesafioDev.AssemblyInfoInputs.cache
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\obj\Debug\netcoreapp2.1\DesafioDev.AssemblyInfo.cs
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\obj\Debug\netcoreapp2.1\DesafioDev.RazorTargetAssemblyInfo.cache
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\obj\Debug\netcoreapp2.1\DesafioDev.dll
+C:\Users\jborges\source\repos\DesafioDev\DesafioDev\obj\Debug\netcoreapp2.1\DesafioDev.pdb
