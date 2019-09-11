@@ -8,22 +8,22 @@ namespace DesafioDev.Repository
     {
        private List<Taxa> TaxasA = new List<Taxa>
         {
-            new Taxa() { Bandeira = "Visa", Credito = 2.25, Debito = 2.00 },
-            new Taxa() { Bandeira = "Master", Credito = 2.35, Debito = 1.98 }
+            new Taxa() { Bandeira = "visa", Credito = 2.25, Debito = 2.00 },
+            new Taxa() { Bandeira = "master", Credito = 2.35, Debito = 1.98 }
 
         };
 
         private List<Taxa> TaxasB = new List<Taxa>
         {
-            new Taxa() { Bandeira = "Visa", Credito = 2.50, Debito = 2.08 },
-            new Taxa() { Bandeira = "Master", Credito = 2.65, Debito = 1.75 }
+            new Taxa() { Bandeira = "visa", Credito = 2.50, Debito = 2.08 },
+            new Taxa() { Bandeira = "master", Credito = 2.65, Debito = 1.75 }
 
         };
 
         private List<Taxa> TaxasC = new List<Taxa>
         {
-            new Taxa() { Bandeira = "Visa", Credito = 2.75, Debito = 2.16 },
-            new Taxa() { Bandeira = "Master", Credito = 3.10, Debito = 1.58 }
+            new Taxa() { Bandeira = "visa", Credito = 2.75, Debito = 2.16 },
+            new Taxa() { Bandeira = "master", Credito = 3.10, Debito = 1.58 }
         };
 
         public List<Taxa> GetTaxasA()

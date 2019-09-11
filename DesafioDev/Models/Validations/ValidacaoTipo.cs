@@ -15,7 +15,7 @@ namespace DesafioDev.Models.Validations
         {
             valoresPermitidos = new List<string>()
             {
-                "Credito", "Debito"
+                "credito", "debito"
             };
 
         }
@@ -24,7 +24,7 @@ namespace DesafioDev.Models.Validations
         {
             string valorBandeira = (string)value;
 
-            if (valoresPermitidos.Contains(valorBandeira))
+            if (valoresPermitidos.Contains(valorBandeira.ToLower()))
             {
                 return true;
             }

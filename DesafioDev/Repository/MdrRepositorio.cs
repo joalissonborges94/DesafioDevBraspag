@@ -20,19 +20,19 @@ namespace DesafioDev.Repository
             {
                new MDR()
                {
-                   Adquirente = "A",
+                   Adquirente = "a",
                    Taxas = _taxarepositorio.GetTaxasA()
 
                },
 
                new MDR()
                {
-                   Adquirente = "B",
+                   Adquirente = "a",
                    Taxas = _taxarepositorio.GetTaxasB()
                },
                new MDR()
                {
-                      Adquirente = "C",
+                      Adquirente = "c",
                       Taxas = _taxarepositorio.GetTaxasC()
                },
             };

@@ -14,7 +14,7 @@ namespace DesafioDev.Models.Validations
         {
             valoresPermitidos = new List<string>()
             {
-                "A", "B", "C"
+                "a", "b", "c"
             };
         }
 
@@ -22,7 +22,7 @@ namespace DesafioDev.Models.Validations
         {
             string valorAdquirente = (string)value;
 
-            if (valoresPermitidos.Contains(valorAdquirente))
+            if (valoresPermitidos.Contains(valorAdquirente.ToLower()))
             {
                 return true;
             }

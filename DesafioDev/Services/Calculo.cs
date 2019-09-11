@@ -17,17 +17,18 @@ namespace DesafioDev.Services
 
         public double CalculoTaxa(Transacao _transacao)
         {
-                MDR Mdr = _mdrRepositorio.GetMDR().FirstOrDefault(mdr => mdr.Adquirente == _transacao.Adquirente);
 
-                Taxa taxa = Mdr.Taxas.FirstOrDefault(_taxa => _taxa.Bandeira == _transacao.Bandeira);
+                MDR Mdr = _mdrRepositorio.GetMDR().FirstOrDefault(mdr => mdr.Adquirente == _transacao.Adquirente.ToLower());
 
-                if (_transacao.Tipo == "Credito")
+                Taxa taxa = Mdr.Taxas.FirstOrDefault(_taxa => _taxa.Bandeira == _transacao.Bandeira.ToLower());
+
+                if (_transacao.Tipo.ToLower() == "credito")
                     return CalculoTaxacredito(_transacao, taxa);
 
-                if (_transacao.Tipo == "Debito")
+                if (_transacao.Tipo.ToLower() == "debito")
                     return CalculoTaxadebito(_transacao, taxa);
 
-                return 0;           
+                return 0;
         }
 
         private double CalculoTaxacredito(Transacao _transacao, Taxa taxa)
