@@ -27,7 +27,7 @@ namespace DesafioDev.Repository
 
                new MDR()
                {
-                   Adquirente = "a",
+                   Adquirente = "b",
                    Taxas = _taxarepositorio.GetTaxasB()
                },
                new MDR()
