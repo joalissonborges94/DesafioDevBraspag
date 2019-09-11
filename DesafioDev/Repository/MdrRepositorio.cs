@@ -22,6 +22,7 @@ namespace DesafioDev.Repository
                {
                    Adquirente = "A",
                    Taxas = _taxarepositorio.GetTaxasA()
+
                },
 
                new MDR()
@@ -35,6 +36,7 @@ namespace DesafioDev.Repository
                       Taxas = _taxarepositorio.GetTaxasC()
                },
             };
+
         }
 
 

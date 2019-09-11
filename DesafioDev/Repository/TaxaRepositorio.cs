@@ -10,12 +10,14 @@ namespace DesafioDev.Repository
         {
             new Taxa() { Bandeira = "Visa", Credito = 2.25, Debito = 2.00 },
             new Taxa() { Bandeira = "Master", Credito = 2.35, Debito = 1.98 }
+
         };
 
         private List<Taxa> TaxasB = new List<Taxa>
         {
             new Taxa() { Bandeira = "Visa", Credito = 2.50, Debito = 2.08 },
             new Taxa() { Bandeira = "Master", Credito = 2.65, Debito = 1.75 }
+
         };
 
         private List<Taxa> TaxasC = new List<Taxa>

@@ -22,7 +22,7 @@ namespace DesafioDev.Controllers
         {
             try
             {
-                var resposta = new { ValorLiquido = Math.Round(_calculo.CalculoTaxa(transacao), 2) };
+                var resposta = new { valorLiquido = Math.Round(_calculo.CalculoTaxa(transacao), 2) };
                 return Ok(resposta);
             }
             catch(Exception ex)
