@@ -22,6 +22,9 @@ namespace DesafioDev.Models.Validations
         {
             string valorAdquirente = (string)value;
 
+            if (valorAdquirente == null)
+                return false;
+
             if (valoresPermitidos.Contains(valorAdquirente.ToLower()))
             {
                 return true;

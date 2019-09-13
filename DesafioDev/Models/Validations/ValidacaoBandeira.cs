@@ -23,6 +23,9 @@ namespace DesafioDev.Models.Validations
         {
             string valorBandeira = (string)value;
 
+            if (valorBandeira == null)
+                return false;
+
             if (valoresPermitidos.Contains(valorBandeira.ToLower()))
             {
                 return true;

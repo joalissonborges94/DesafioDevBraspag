@@ -22,9 +22,12 @@ namespace DesafioDev.Models.Validations
 
         public override bool IsValid(object value)
         {
-            string valorBandeira = (string)value;
+            string valorTipo = (string)value;
 
-            if (valoresPermitidos.Contains(valorBandeira.ToLower()))
+            if (valorTipo == null)
+                return false;
+
+            if (valoresPermitidos.Contains(valorTipo.ToLower()))
             {
                 return true;
             }
